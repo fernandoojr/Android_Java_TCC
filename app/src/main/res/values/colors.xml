@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#13A758</color>
+    <color name="colorAccent">#000000</color>
+    <color name="corFundo">#16C067</color>
+    <color name="VerdeBotãoLogin">#0F8346</color>
+    <color name="branco">#FFFFFF</color>
+
+</resources>

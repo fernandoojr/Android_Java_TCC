@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="txt"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRuaNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="txt"
+        android:textColor="@color/branco" />
+
+    <TextView
+        android:id="@+id/txtBairroCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="txt"
+        android:textColor="@color/branco" />
+
+    <TextView
+        android:id="@+id/txtComplemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="txt"
+        android:textColor="@color/branco" />
+
+</LinearLayout>

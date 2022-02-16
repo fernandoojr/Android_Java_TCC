@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cursoandroid.tcc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Activities.VariaveisGlobais"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.Activity.CadastroLojaActivity"></activity>
+        <activity android:name=".Activities.Activity.InformacoesActivity" />
+        <activity android:name=".Activities.Activity.OpcoesActivity" />
+        <activity android:name=".Activities.Activity.PedidoActivity" />
+        <activity android:name=".Activities.Activity.PedidosActivity" />
+        <activity android:name=".Activities.Activity.FinalizadoActivity" />
+        <activity android:name=".Activities.Activity.FinalizarActivity" />
+        <activity
+            android:name=".Activities.Activity.CarrinhoActivity"
+            android:label="Carrinho"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Activity.ProdutosActivity"
+            android:label="Mercado Mobile Online"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Activity.SelecaoEnderecoActivity"
+            android:label="@string/title_activity_selecao_endereco"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.Activity.SelecionarSupermercadoActivity" />
+        <activity android:name=".Activities.Activity.CadastroEnderecoActivity" />
+        <activity android:name=".Activities.Activity.CadastroActivity" />
+        <activity android:name=".Activities.Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

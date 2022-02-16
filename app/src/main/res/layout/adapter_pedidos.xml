@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNumeroPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedido N° 145"
+        android:textColor="@color/branco"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizado em 19/10/2019"
+        android:textColor="@color/branco" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Concluído"
+        android:textColor="@color/branco"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLoja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loja: Irmãos Patrocínio Loja 01"
+        android:textColor="@color/branco" />
+
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor total do pedido: R$56,90"
+        android:textColor="@color/branco" />
+</LinearLayout>
